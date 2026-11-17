@@ -1,0 +1,8 @@
+facility,scenario,co2_t_measur_default_us_average,co2_t_etkb_2022_transmission,co2_t_etkb_2022_distribution,factor_etkb_2022_transmission,factor_etkb_2022_distribution
+A,A-AI,19.9,21.9,23.5,1.101,1.181
+B,B-S1,436.2,480.7,515.5,1.102,1.182
+B,B-S2,506.7,558.4,598.8,1.102,1.182
+B,B-S3,296.5,326.7,350.4,1.102,1.182
+C,C-AI,92.6,102.1,109.5,1.103,1.183
+D,D-AI,72.0,79.4,85.1,1.103,1.182
+E,E-AI,45.1,49.7,53.3,1.102,1.182

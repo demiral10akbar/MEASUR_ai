@@ -1,0 +1,6 @@
+facility,savings_pct_min,savings_pct_max,energy_saving_kwh_min,energy_saving_kwh_max,co2_t_min,co2_t_max,payback_months_min,payback_months_max
+A,19.5,19.5,49654,49654,19.9,19.9,10.22,10.22
+B,16.7,28.5,739200,1263278,296.5,506.7,0.28,0.89
+C,28.2,28.2,231000,231000,92.6,92.6,0.0,0.0
+D,19.0,19.0,179580,179580,72.0,72.0,10.12,10.12
+E,35.1,35.1,112410,112410,45.1,45.1,7.56,7.56

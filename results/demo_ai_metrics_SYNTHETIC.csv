@@ -1,0 +1,4 @@
+module,test_MAE,test_R2,epochs,mean_setpoint_bar,n_train/val/test,test_accuracy,test_macro_F1,mean_speed_setpoint_rps
+Demand forecasting -> pressure set-point,0.5522395319096938,0.9581308561576796,245,6.605320382441719,24461/5241/5242,,,
+Pump predictive maintenance (4 states),,,129,,420/90/90,0.9888888888888889,0.9874921826141339,
+Mixer torque prediction -> speed set-point,1.1308919984429018,0.9980729438567152,300,,3360/720/720,,,1.770722165728965

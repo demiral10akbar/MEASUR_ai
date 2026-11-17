@@ -1,0 +1,8 @@
+facility,scenario,savings_pct_calc,savings_pct_reported,savings_ok,cost_saving_calc,cost_saving_reported,cost_ok,payback_calc,payback_reported,payback_ok
+A,A-AI,19.54,19.5,True,5868.0,5868.21,True,10.22,10.0,True
+B,B-S1,24.52,24.5,True,127400.0,127400.0,True,0.28,0.28,True
+B,B-S2,28.48,28.5,True,147994.0,147995.0,True,0.36,0.36,True
+B,B-S3,16.67,16.7,True,75398.0,75398.0,True,0.89,0.89,True
+C,C-AI,28.21,28.0,True,15246.0,15274.0,True,0.0,0.0,True
+D,D-AI,18.98,19.0,True,11852.0,11840.0,True,10.12,10.0,True
+E,E-AI,35.09,35.1,True,13489.0,13490.0,True,7.56,7.5,True

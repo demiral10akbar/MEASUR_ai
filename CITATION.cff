@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "ai-measur-rotating-equipment: code and data for AI-assisted optimization of industrial rotating equipment"
+version: 1.0.0
+date-released: 2026-11-17
+license: MIT
+authors:
+  - family-names: Akbar
+    given-names: Demiral
+    affiliation: "OSTIM Technical University, Ankara, Türkiye"
+preferred-citation:
+  type: article
+  title: "AI-Assisted Optimization of Industrial Rotating Equipment: A Unified Energy Efficiency Framework for Fans, Pumps, Motors, and Compressors"
+  authors:
+    - family-names: Akbar
+      given-names: Demiral
+  status: submitted
