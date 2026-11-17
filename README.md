@@ -1,5 +1,7 @@
 # AI-Assisted Optimization of Industrial Rotating Equipment — code and data
 
+[![tests](https://github.com/demiral10akbar/MEASUR_ai/actions/workflows/tests.yml/badge.svg)](https://github.com/demiral10akbar/MEASUR_ai/actions/workflows/tests.yml)
+
 Reproducible calculations and reference AI modules for the manuscript
 
 > **AI-Assisted Optimization of Industrial Rotating Equipment: A Unified Energy Efficiency Framework for Fans, Pumps, Motors, and Compressors**
@@ -64,8 +66,8 @@ results/                 outputs written by the scripts
 ## Installation
 
 ```bash
-git clone https://github.com/<your-account>/ai-measur-rotating-equipment.git
-cd ai-measur-rotating-equipment
+git clone https://github.com/demiral10akbar/MEASUR_ai.git
+cd MEASUR_ai
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
@@ -96,8 +98,9 @@ pytest -q                             # test suite
 
 ## Key assumptions
 
-* Electricity prices (USD/kWh): A 0.100, B 0.102, C 0.066, D 0.066, E 0.120; demand charges
-  USD 60/kW·yr (A) and 120/kW·yr (B). C and D use the MEASUR default price.
+* Electricity prices (USD/kWh, 2025): A 0.100, B 0.102, E 0.120 from the facilities' actual
+  electricity bills, confirmed in site interviews; C and D 0.066 (MEASUR default). Demand charges
+  USD 60/kW·yr (A) and 120/kW·yr (B).
 * Grid emission factor: 401.07 kg CO₂/MWh (MEASUR default, U.S. average eGRID). The
   official 2022 Turkish consumption-point factors (442 and 474 kg CO₂/MWh; ETKB, 2024)
   are included for comparison and scale all CO₂ reductions by ≈1.10 and ≈1.18.
